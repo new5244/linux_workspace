@@ -1,0 +1,220 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CDRDATA_H	cdrdata.h	2;"	d
+CDRData	cdrdata.cpp	/^CDRData::CDRData()$/;"	f	class:CDRData
+CDRData	cdrdata.h	/^class CDRData$/;"	c
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = ..\/..\/..\/qtsdk-2009.04\/qt\/mkspecs\/common\/g++.conf \\$/;"	m
+EXDATA_H	exdata.h	2;"	d
+ExData	exdata.cpp	/^ExData::ExData()$/;"	f	class:ExData
+ExData	exdata.h	/^class ExData$/;"	c
+INCPATH	Makefile	/^INCPATH       = -I..\/..\/..\/qtsdk-2009.04\/qt\/mkspecs\/linux-g++ -I. -I..\/..\/..\/qtsdk-2009.04\/qt\/include\/QtCore -I..\/..\/..\/qtsdk-2009.04\/qt\/include\/QtGui -I..\/..\/..\/qtsdk-2009.04\/qt\/include -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/home\/saibi\/qtsdk-2009.04\/qt\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/home\/saibi\/qtsdk-2009.04\/qt\/lib -lQtGui -L\/home\/saibi\/qtsdk-2009.04\/qt\/lib -L\/usr\/X11R6\/lib -pthread -lfreetype -lgobject-2.0 -lSM -lICE -pthread -pthread -lXrender -lfontconfig -lXext -lX11 -lQtCore -lm -pthread -lgthread-2.0 -lrt -lglib-2.0 -ldl -lpthread$/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAINWINDOW_H	mainwindow.h	2;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MainWindow	mainwindow.cpp	/^MainWindow::MainWindow(QWidget * parent)$/;"	f	class:MainWindow
+MainWindow	mainwindow.h	/^class MainWindow : public QMainWindow$/;"	c
+MainWindow	ui_mainwindow.h	/^    class MainWindow: public Ui_MainWindow {};$/;"	c	namespace:Ui
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OPTIONS_H	options.h	2;"	d
+Options	options.cpp	/^Options::Options(QWidget * parent):$/;"	f	class:Options
+Options	options.h	/^class Options:public QDialog$/;"	c
+Options	ui_options.h	/^    class Options: public Ui_Options {};$/;"	c	namespace:Ui
+QMAKE	Makefile	/^QMAKE         = \/home\/saibi\/qtsdk-2009.04\/qt\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = cdrmate_gui$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -sf$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = cdrmate_gui$/;"	m
+UI_MAINWINDOW_H	ui_mainwindow.h	11;"	d
+UI_OPTIONS_H	ui_options.h	11;"	d
+Ui	mainwindow.h	/^namespace Ui$/;"	n
+Ui	options.h	/^namespace Ui$/;"	n
+Ui	ui_mainwindow.h	/^namespace Ui {$/;"	n
+Ui	ui_options.h	/^namespace Ui {$/;"	n
+Ui_MainWindow	ui_mainwindow.h	/^class Ui_MainWindow$/;"	c
+Ui_Options	ui_options.h	/^class Ui_Options$/;"	c
+actionE_xit	ui_mainwindow.h	/^    QAction *actionE_xit;$/;"	m	class:Ui_MainWindow
+action_About_CDRMate	ui_mainwindow.h	/^    QAction *action_About_CDRMate;$/;"	m	class:Ui_MainWindow
+action_Connect	ui_mainwindow.h	/^    QAction *action_Connect;$/;"	m	class:Ui_MainWindow
+action_Disconnect	ui_mainwindow.h	/^    QAction *action_Disconnect;$/;"	m	class:Ui_MainWindow
+action_Options	ui_mainwindow.h	/^    QAction *action_Options;$/;"	m	class:Ui_MainWindow
+add_received_table	mainwindow.cpp	/^static void add_received_table(QAbstractItemModel * model, CDRData & data)$/;"	f	file:
+add_transfer_table	mainwindow.cpp	/^static void add_transfer_table(QAbstractItemModel * model, ExData & data)$/;"	f	file:
+buttonBox	ui_options.h	/^    QDialogButtonBox *buttonBox;$/;"	m	class:Ui_Options
+centralWidget	ui_mainwindow.h	/^    QWidget *centralWidget;$/;"	m	class:Ui_MainWindow
+changeEvent	options.cpp	/^void Options::changeEvent(QEvent * e)$/;"	f	class:Options
+checkBox_auto_connect	ui_options.h	/^    QCheckBox *checkBox_auto_connect;$/;"	m	class:Ui_Options
+choose_dir	options.cpp	/^void Options::choose_dir()$/;"	f	class:Options
+closeEvent	mainwindow.cpp	/^void MainWindow::closeEvent(QCloseEvent * event)$/;"	f	class:MainWindow
+cmd_path	mainwindow.h	/^        QString cmd_path;$/;"	m	class:MainWindow
+comboBox_port	ui_options.h	/^    QComboBox *comboBox_port;$/;"	m	class:Ui_Options
+comboBox_protocol_ver	ui_options.h	/^    QComboBox *comboBox_protocol_ver;$/;"	m	class:Ui_Options
+comboBox_speed	ui_options.h	/^    QComboBox *comboBox_speed;$/;"	m	class:Ui_Options
+comboBox_system_id	ui_options.h	/^    QComboBox *comboBox_system_id;$/;"	m	class:Ui_Options
+conf_apply	options.cpp	/^void Options::conf_apply()$/;"	f	class:Options
+connected	mainwindow.h	/^        bool connected;$/;"	m	class:MainWindow
+console_program	mainwindow.h	/^        QProcess console_program;$/;"	m	class:MainWindow
+contents	cdrdata.h	/^    QString contents;$/;"	m	class:CDRData
+contents	exdata.h	/^    QString contents;$/;"	m	class:ExData
+create_ini	main.cpp	/^static void create_ini(QString &conf_path, QString &ini_path)$/;"	f	file:
+data_modified	options.cpp	/^void Options::data_modified()$/;"	f	class:Options
+data_no	exdata.h	/^    QString data_no;$/;"	m	class:ExData
+date	cdrdata.h	/^    QDate date;$/;"	m	class:CDRData
+date	exdata.h	/^    QDateTime date;$/;"	m	class:ExData
+exported	cdrdata.h	/^    bool exported;$/;"	m	class:CDRData
+filename	cdrdata.h	/^    QString filename;$/;"	m	class:CDRData
+filename	exdata.h	/^    QString filename;$/;"	m	class:ExData
+gridLayout	ui_options.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_Options
+gridLayout_2	ui_options.h	/^    QGridLayout *gridLayout_2;$/;"	m	class:Ui_Options
+gridLayout_3	ui_options.h	/^    QGridLayout *gridLayout_3;$/;"	m	class:Ui_Options
+gridLayout_4	ui_options.h	/^    QGridLayout *gridLayout_4;$/;"	m	class:Ui_Options
+gridLayout_5	ui_options.h	/^    QGridLayout *gridLayout_5;$/;"	m	class:Ui_Options
+gridLayout_6	ui_options.h	/^    QGridLayout *gridLayout_6;$/;"	m	class:Ui_Options
+gridLayout_7	ui_options.h	/^    QGridLayout *gridLayout_7;$/;"	m	class:Ui_Options
+groupBox	ui_mainwindow.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_MainWindow
+groupBox	ui_options.h	/^    QGroupBox *groupBox;$/;"	m	class:Ui_Options
+groupBox_2	ui_options.h	/^    QGroupBox *groupBox_2;$/;"	m	class:Ui_Options
+groupBox_3	ui_options.h	/^    QGroupBox *groupBox_3;$/;"	m	class:Ui_Options
+groupBox_4	ui_options.h	/^    QGroupBox *groupBox_4;$/;"	m	class:Ui_Options
+groupBox_5	ui_options.h	/^    QGroupBox *groupBox_5;$/;"	m	class:Ui_Options
+handle_SLF	mainwindow.cpp	/^int MainWindow::handle_SLF(QString filename, QString type_str)$/;"	f	class:MainWindow
+handle_SLR	mainwindow.cpp	/^int MainWindow::handle_SLR(QString param)$/;"	f	class:MainWindow
+handle_cdr_data_delete	mainwindow.cpp	/^void MainWindow::handle_cdr_data_delete()$/;"	f	class:MainWindow
+handle_clm_mrk_delete	mainwindow.cpp	/^void MainWindow::handle_clm_mrk_delete()$/;"	f	class:MainWindow
+handle_console_msg_line	mainwindow.cpp	/^void MainWindow::handle_console_msg_line(QString & line)$/;"	f	class:MainWindow
+handle_export	mainwindow.cpp	/^void MainWindow::handle_export()$/;"	f	class:MainWindow
+handle_send	mainwindow.cpp	/^void MainWindow::handle_send(int idx)$/;"	f	class:MainWindow
+horizontalLayout	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_MainWindow
+horizontalLayout	ui_options.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_Options
+horizontalLayout_2	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_2;$/;"	m	class:Ui_MainWindow
+horizontalLayout_3	ui_mainwindow.h	/^    QHBoxLayout *horizontalLayout_3;$/;"	m	class:Ui_MainWindow
+horizontalSpacer	ui_options.h	/^    QSpacerItem *horizontalSpacer;$/;"	m	class:Ui_Options
+horizontalSpacer_2	ui_options.h	/^    QSpacerItem *horizontalSpacer_2;$/;"	m	class:Ui_Options
+horizontalSpacer_3	ui_options.h	/^    QSpacerItem *horizontalSpacer_3;$/;"	m	class:Ui_Options
+horizontalSpacer_4	ui_options.h	/^    QSpacerItem *horizontalSpacer_4;$/;"	m	class:Ui_Options
+horizontalSpacer_5	ui_options.h	/^    QSpacerItem *horizontalSpacer_5;$/;"	m	class:Ui_Options
+horizontalSpacer_6	ui_options.h	/^    QSpacerItem *horizontalSpacer_6;$/;"	m	class:Ui_Options
+ini_path	mainwindow.h	/^	QString ini_path;$/;"	m	class:MainWindow
+label	ui_options.h	/^    QLabel *label;$/;"	m	class:Ui_Options
+label_2	ui_options.h	/^    QLabel *label_2;$/;"	m	class:Ui_Options
+label_3	ui_options.h	/^    QLabel *label_3;$/;"	m	class:Ui_Options
+label_4	ui_options.h	/^    QLabel *label_4;$/;"	m	class:Ui_Options
+label_5	ui_options.h	/^    QLabel *label_5;$/;"	m	class:Ui_Options
+label_6	ui_options.h	/^    QLabel *label_6;$/;"	m	class:Ui_Options
+label_7	ui_options.h	/^    QLabel *label_7;$/;"	m	class:Ui_Options
+label_8	ui_options.h	/^    QLabel *label_8;$/;"	m	class:Ui_Options
+lineEdit_export	ui_options.h	/^    QLineEdit *lineEdit_export;$/;"	m	class:Ui_Options
+lineEdit_import	ui_options.h	/^    QLineEdit *lineEdit_import;$/;"	m	class:Ui_Options
+m_ui	options.h	/^	Ui::Options * m_ui;$/;"	m	class:Options
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+make_exdata	mainwindow.cpp	/^static ExData *make_exdata(QString & filename, QString & contents, QString & type_str)$/;"	f	file:
+menuBar	ui_mainwindow.h	/^    QMenuBar *menuBar;$/;"	m	class:Ui_MainWindow
+menu_File	ui_mainwindow.h	/^    QMenu *menu_File;$/;"	m	class:Ui_MainWindow
+menu_Help	ui_mainwindow.h	/^    QMenu *menu_Help;$/;"	m	class:Ui_MainWindow
+menu_Setup	ui_mainwindow.h	/^    QMenu *menu_Setup;$/;"	m	class:Ui_MainWindow
+metaObject	moc_mainwindow.cpp	/^const QMetaObject *MainWindow::metaObject() const$/;"	f	class:MainWindow
+metaObject	moc_options.cpp	/^const QMetaObject *Options::metaObject() const$/;"	f	class:Options
+modified	options.h	/^	bool modified;$/;"	m	class:Options
+need_reconnect	options.h	/^	bool need_reconnect;$/;"	m	class:Options
+on_action_About_CDRMate_triggered	mainwindow.cpp	/^void MainWindow::on_action_About_CDRMate_triggered()$/;"	f	class:MainWindow
+on_action_Connect_triggered	mainwindow.cpp	/^void MainWindow::on_action_Connect_triggered()$/;"	f	class:MainWindow
+on_action_Disconnect_triggered	mainwindow.cpp	/^void MainWindow::on_action_Disconnect_triggered()$/;"	f	class:MainWindow
+on_action_Options_triggered	mainwindow.cpp	/^void MainWindow::on_action_Options_triggered()$/;"	f	class:MainWindow
+patient_id	cdrdata.h	/^    QString patient_id;$/;"	m	class:CDRData
+pconf	mainwindow.h	/^        QSettings *pconf;$/;"	m	class:MainWindow
+pconf	options.h	/^	QSettings *pconf;$/;"	m	class:Options
+poption	mainwindow.h	/^        Options *poption;$/;"	m	class:MainWindow
+pushButton_apply	ui_options.h	/^    QPushButton *pushButton_apply;$/;"	m	class:Ui_Options
+pushButton_delete	ui_mainwindow.h	/^    QPushButton *pushButton_delete;$/;"	m	class:Ui_MainWindow
+pushButton_export	ui_options.h	/^    QPushButton *pushButton_export;$/;"	m	class:Ui_Options
+pushButton_export_send	ui_mainwindow.h	/^    QPushButton *pushButton_export_send;$/;"	m	class:Ui_MainWindow
+pushButton_import	ui_options.h	/^    QPushButton *pushButton_import;$/;"	m	class:Ui_Options
+pushButton_view	ui_mainwindow.h	/^    QPushButton *pushButton_view;$/;"	m	class:Ui_MainWindow
+qt_meta_data_MainWindow	moc_mainwindow.cpp	/^static const uint qt_meta_data_MainWindow[] = {$/;"	v	file:
+qt_meta_data_Options	moc_options.cpp	/^static const uint qt_meta_data_Options[] = {$/;"	v	file:
+qt_meta_stringdata_MainWindow	moc_mainwindow.cpp	/^static const char qt_meta_stringdata_MainWindow[] = {$/;"	v	file:
+qt_meta_stringdata_Options	moc_options.cpp	/^static const char qt_meta_stringdata_Options[] = {$/;"	v	file:
+qt_metacall	moc_mainwindow.cpp	/^int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:MainWindow
+qt_metacall	moc_options.cpp	/^int Options::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Options
+qt_metacast	moc_mainwindow.cpp	/^void *MainWindow::qt_metacast(const char *_clname)$/;"	f	class:MainWindow
+qt_metacast	moc_options.cpp	/^void *Options::qt_metacast(const char *_clname)$/;"	f	class:Options
+radioButton	ui_options.h	/^    QRadioButton *radioButton;$/;"	m	class:Ui_Options
+radio_export_off	ui_options.h	/^    QRadioButton *radio_export_off;$/;"	m	class:Ui_Options
+radio_export_on	ui_options.h	/^    QRadioButton *radio_export_on;$/;"	m	class:Ui_Options
+radio_transfer_off	ui_options.h	/^    QRadioButton *radio_transfer_off;$/;"	m	class:Ui_Options
+radio_transfer_on	ui_options.h	/^    QRadioButton *radio_transfer_on;$/;"	m	class:Ui_Options
+read_conf	options.cpp	/^void Options::read_conf()$/;"	f	class:Options
+received_list	mainwindow.h	/^        QVector<CDRData> received_list;$/;"	m	class:MainWindow
+received_model	mainwindow.h	/^        QStandardItemModel *received_model;$/;"	m	class:MainWindow
+retranslateUi	ui_mainwindow.h	/^    void retranslateUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+retranslateUi	ui_options.h	/^    void retranslateUi(QDialog *Options)$/;"	f	class:Ui_Options
+save_csv	mainwindow.cpp	/^static int save_csv(QString & path, QString & buf)$/;"	f	file:
+send_console	mainwindow.cpp	/^void MainWindow::send_console(QString msg)$/;"	f	class:MainWindow
+set_conf	options.cpp	/^void Options::set_conf(QSettings * p)$/;"	f	class:Options
+setupUi	ui_mainwindow.h	/^    void setupUi(QMainWindow *MainWindow)$/;"	f	class:Ui_MainWindow
+setupUi	ui_options.h	/^    void setupUi(QDialog *Options)$/;"	f	class:Ui_Options
+setup_cmd	mainwindow.cpp	/^void MainWindow::setup_cmd(QString & cmd, QString & ini)$/;"	f	class:MainWindow
+slot_change_export_send_button	mainwindow.cpp	/^void MainWindow::slot_change_export_send_button(int tab_idx)$/;"	f	class:MainWindow
+slot_console_msg	mainwindow.cpp	/^void MainWindow::slot_console_msg()$/;"	f	class:MainWindow
+slot_console_output	mainwindow.cpp	/^void MainWindow::slot_console_output()$/;"	f	class:MainWindow
+slot_export_send	mainwindow.cpp	/^void MainWindow::slot_export_send()$/;"	f	class:MainWindow
+slot_item_delete	mainwindow.cpp	/^void MainWindow::slot_item_delete()$/;"	f	class:MainWindow
+slot_item_view	mainwindow.cpp	/^void MainWindow::slot_item_view()$/;"	f	class:MainWindow
+staticMetaObject	moc_mainwindow.cpp	/^const QMetaObject MainWindow::staticMetaObject = {$/;"	m	class:MainWindow	file:
+staticMetaObject	moc_options.cpp	/^const QMetaObject Options::staticMetaObject = {$/;"	m	class:Options	file:
+statusBar	ui_mainwindow.h	/^    QStatusBar *statusBar;$/;"	m	class:Ui_MainWindow
+status_bar_label	mainwindow.h	/^        QLabel status_bar_label;$/;"	m	class:MainWindow
+tab	ui_mainwindow.h	/^    QWidget *tab;$/;"	m	class:Ui_MainWindow
+tabWidget	ui_mainwindow.h	/^    QTabWidget *tabWidget;$/;"	m	class:Ui_MainWindow
+tabWidget	ui_options.h	/^    QTabWidget *tabWidget;$/;"	m	class:Ui_Options
+tab_2	ui_mainwindow.h	/^    QWidget *tab_2;$/;"	m	class:Ui_MainWindow
+tab_connection	ui_options.h	/^    QWidget *tab_connection;$/;"	m	class:Ui_Options
+tab_receive_transfer	ui_options.h	/^    QWidget *tab_receive_transfer;$/;"	m	class:Ui_Options
+transfer_list	mainwindow.h	/^	QVector<ExData> transfer_list;$/;"	m	class:MainWindow
+transfer_model	mainwindow.h	/^	QStandardItemModel *transfer_model;$/;"	m	class:MainWindow
+transferred	exdata.h	/^    bool transferred;$/;"	m	class:ExData
+treeView_receive	ui_mainwindow.h	/^    QTreeView *treeView_receive;$/;"	m	class:Ui_MainWindow
+treeView_transfer	ui_mainwindow.h	/^    QTreeView *treeView_transfer;$/;"	m	class:Ui_MainWindow
+type	exdata.h	/^    int type;$/;"	m	class:ExData
+ui	mainwindow.h	/^	Ui::MainWindow *ui;$/;"	m	class:MainWindow
+update_Menu	mainwindow.cpp	/^void MainWindow::update_Menu(void)$/;"	f	class:MainWindow
+update_StatusBar	mainwindow.cpp	/^void MainWindow::update_StatusBar(void)$/;"	f	class:MainWindow
+update_received_table	mainwindow.cpp	/^static void update_received_table(QAbstractItemModel * model, int row, CDRData * p)$/;"	f	file:
+update_transfer_table	mainwindow.cpp	/^static void update_transfer_table(QAbstractItemModel * model, int row, ExData * p)$/;"	f	file:
+verticalLayout	ui_mainwindow.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_MainWindow
+verticalLayout	ui_options.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_Options
+verticalLayout_2	ui_options.h	/^    QVBoxLayout *verticalLayout_2;$/;"	m	class:Ui_Options
+verticalSpacer	ui_options.h	/^    QSpacerItem *verticalSpacer;$/;"	m	class:Ui_Options
+verticalSpacer_2	ui_options.h	/^    QSpacerItem *verticalSpacer_2;$/;"	m	class:Ui_Options
+verticalSpacer_3	ui_options.h	/^    QSpacerItem *verticalSpacer_3;$/;"	m	class:Ui_Options
+verticalSpacer_4	ui_options.h	/^    QSpacerItem *verticalSpacer_4;$/;"	m	class:Ui_Options
+write_conf	options.cpp	/^void Options::write_conf()$/;"	f	class:Options
+~MainWindow	mainwindow.cpp	/^MainWindow::~MainWindow()$/;"	f	class:MainWindow
+~Options	options.cpp	/^Options::~Options()$/;"	f	class:Options

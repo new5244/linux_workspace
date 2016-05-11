@@ -1,0 +1,126 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABS	minIni.c	584;"	d	file:
+INI_BUFFERSIZE	minGlue-FatFs.h	19;"	d
+INI_BUFFERSIZE	minGlue-efsl.h	19;"	d
+INI_BUFFERSIZE	minIni.h	31;"	d
+INI_FILETYPE	minGlue-FatFs.h	25;"	d
+INI_FILETYPE	minGlue-efsl.h	22;"	d
+INI_FILETYPE	minIni.c	78;"	d	file:
+INI_LINETERM	minGlue-efsl.h	23;"	d
+INI_LINETERM	minIni.c	75;"	d	file:
+MININI_H	minIni.h	20;"	d
+MININI_IMPLEMENTATION	minIni.c	32;"	d	file:
+QUOTE_DEQUOTE	minIni.c	/^  QUOTE_DEQUOTE,$/;"	e	enum:quote_option	file:
+QUOTE_ENQUOTE	minIni.c	/^  QUOTE_ENQUOTE,$/;"	e	enum:quote_option	file:
+QUOTE_NONE	minIni.c	/^  QUOTE_NONE,$/;"	e	enum:quote_option	file:
+TCHAR	minIni.h	/^  typedef char TCHAR;$/;"	t
+UNICODE	minIni.c	25;"	d	file:
+WXMININI_H	wxMinIni.h	20;"	d
+_UNICODE	minIni.c	28;"	d	file:
+__FreeBSD__	minIni.c	66;"	d	file:
+__LINUX__	minIni.c	63;"	d	file:
+__T	minIni.c	44;"	d	file:
+_tcscat	minIni.c	45;"	d	file:
+_tcschr	minIni.c	46;"	d	file:
+_tcscmp	minIni.c	47;"	d	file:
+_tcscpy	minIni.c	48;"	d	file:
+_tcsicmp	minIni.c	49;"	d	file:
+_tcslen	minIni.c	50;"	d	file:
+_tcsncpy	minIni.c	51;"	d	file:
+_tcsnicmp	minIni.c	52;"	d	file:
+_tcsrchr	minIni.c	53;"	d	file:
+_tcstol	minIni.c	54;"	d	file:
+_tfgets	minIni.c	55;"	d	file:
+_tfopen	minIni.c	57;"	d	file:
+_tfputs	minIni.c	56;"	d	file:
+_tremove	minIni.c	58;"	d	file:
+_trename	minIni.c	59;"	d	file:
+assert	minIni.c	35;"	d	file:
+check_enquote	minIni.c	/^static enum quote_option check_enquote(const TCHAR *Value)$/;"	f	file:
+del	minIni.h	/^    bool del(const std::string& Section) const$/;"	f	class:minIni
+del	minIni.h	/^    bool del(const std::string& Section, const std::string& Key) const$/;"	f	class:minIni
+del	wxMinIni.h	/^  bool del(const wxString& Section) const$/;"	f	class:minIni
+del	wxMinIni.h	/^  bool del(const wxString& Section, const wxString& Key) const$/;"	f	class:minIni
+geti	minIni.h	/^    int geti(const std::string& Section, const std::string& Key, int DefValue=0) const$/;"	f	class:minIni
+geti	wxMinIni.h	/^  int geti(const wxString& Section, const wxString& Key, int DefValue=0) const$/;"	f	class:minIni
+getkey	minIni.h	/^    std::string getkey(const std::string& Section, int idx) const$/;"	f	class:minIni
+getkey	wxMinIni.h	/^  wxString getkey(const wxString& Section, int idx) const$/;"	f	class:minIni
+getkeystring	minIni.c	/^static int getkeystring(INI_FILETYPE *fp, const TCHAR *Section, const TCHAR *Key,$/;"	f	file:
+getl	minIni.h	/^    long getl(const std::string& Section, const std::string& Key, long DefValue=0) const$/;"	f	class:minIni
+getl	wxMinIni.h	/^  long getl(const wxString& Section, const wxString& Key, long DefValue=0) const$/;"	f	class:minIni
+gets	minIni.h	/^    std::string gets(const std::string& Section, const std::string& Key, const std::string& DefValue="") const$/;"	f	class:minIni
+gets	wxMinIni.h	/^  wxString gets(const wxString& Section, const wxString& Key, const wxString& DefValue=wxT("")) const$/;"	f	class:minIni
+getsection	minIni.h	/^    std::string getsection(int idx) const$/;"	f	class:minIni
+getsection	wxMinIni.h	/^  wxString getsection(int idx) const$/;"	f	class:minIni
+iniFilename	minIni.h	/^    std::string iniFilename;$/;"	m	class:minIni
+iniFilename	wxMinIni.h	/^  wxString iniFilename;$/;"	m	class:minIni
+ini_close	minGlue-FatFs.h	29;"	d
+ini_close	minGlue-efsl.h	30;"	d
+ini_close	minGlue-stdio.h	25;"	d
+ini_close	minGlue.h	27;"	d
+ini_getkey	minIni.c	/^int  ini_getkey(const TCHAR *Section, int idx, TCHAR *Buffer, int BufferSize, const TCHAR *Filename)$/;"	f
+ini_getl	minIni.c	/^long ini_getl(const TCHAR *Section, const TCHAR *Key, long DefValue, const TCHAR *Filename)$/;"	f
+ini_gets	minIni.c	/^int ini_gets(const TCHAR *Section, const TCHAR *Key, const TCHAR *DefValue,$/;"	f
+ini_getsection	minIni.c	/^int  ini_getsection(int idx, TCHAR *Buffer, int BufferSize, const TCHAR *Filename)$/;"	f
+ini_openread	minGlue-FatFs.h	27;"	d
+ini_openread	minGlue-efsl.h	28;"	d
+ini_openread	minGlue-stdio.h	23;"	d
+ini_openread	minGlue.h	25;"	d
+ini_openwrite	minGlue-FatFs.h	28;"	d
+ini_openwrite	minGlue-efsl.h	29;"	d
+ini_openwrite	minGlue-stdio.h	24;"	d
+ini_openwrite	minGlue.h	26;"	d
+ini_putl	minIni.c	/^int ini_putl(const TCHAR *Section, const TCHAR *Key, long Value, const TCHAR *Filename)$/;"	f
+ini_puts	minIni.c	/^int ini_puts(const TCHAR *Section, const TCHAR *Key, const TCHAR *Value, const TCHAR *Filename)$/;"	f
+ini_read	minGlue-FatFs.h	30;"	d
+ini_read	minGlue-efsl.h	31;"	d
+ini_read	minGlue-stdio.h	26;"	d
+ini_read	minGlue.h	28;"	d
+ini_remove	minGlue-FatFs.h	33;"	d
+ini_remove	minGlue-efsl.h	33;"	d
+ini_remove	minGlue-stdio.h	29;"	d
+ini_remove	minGlue.h	31;"	d
+ini_rename	minGlue-FatFs.h	32;"	d
+ini_rename	minGlue-efsl.h	/^static int ini_rename(char *source, const char *dest)$/;"	f
+ini_rename	minGlue-stdio.h	28;"	d
+ini_rename	minGlue.h	30;"	d
+ini_rewind	minGlue-FatFs.h	34;"	d
+ini_rewind	minGlue-efsl.h	34;"	d
+ini_rewind	minGlue-stdio.h	30;"	d
+ini_rewind	minGlue.h	32;"	d
+ini_tempname	minIni.c	/^static void ini_tempname(TCHAR *dest, const TCHAR *source, int maxlength)$/;"	f	file:
+ini_write	minGlue-FatFs.h	31;"	d
+ini_write	minGlue-efsl.h	32;"	d
+ini_write	minGlue-stdio.h	27;"	d
+ini_write	minGlue.h	29;"	d
+inifile	test.c	/^const char inifile[] = "test.ini";$/;"	v
+long2str	minIni.c	/^static void long2str(long value, TCHAR *str)$/;"	f	file:
+main	test.c	/^int main(void)$/;"	f
+minIni	minIni.h	/^    minIni(const std::string& filename) : iniFilename(filename)$/;"	f	class:minIni
+minIni	minIni.h	/^  class minIni$/;"	c
+minIni	wxMinIni.h	/^  minIni(const wxString& filename) : iniFilename(filename)$/;"	f	class:minIni
+minIni	wxMinIni.h	/^class minIni$/;"	c
+put	minIni.h	/^    bool put(const std::string& Section, const std::string& Key, const std::string& Value) const$/;"	f	class:minIni
+put	minIni.h	/^    bool put(const std::string& Section, const std::string& Key, int Value) const$/;"	f	class:minIni
+put	minIni.h	/^    bool put(const std::string& Section, const std::string& Key, long Value) const$/;"	f	class:minIni
+put	wxMinIni.h	/^  bool put(const wxString& Section, const wxString& Key, const wxString& Value) const$/;"	f	class:minIni
+put	wxMinIni.h	/^  bool put(const wxString& Section, const wxString& Key, int Value) const$/;"	f	class:minIni
+put	wxMinIni.h	/^  bool put(const wxString& Section, const wxString& Key, long Value) const$/;"	f	class:minIni
+quote_option	minIni.c	/^enum quote_option {$/;"	g	file:
+save_strncpy	minIni.c	/^static TCHAR *save_strncpy(TCHAR *dest, const TCHAR *source, size_t maxlen, enum quote_option option)$/;"	f	file:
+sizearray	minIni.c	82;"	d	file:
+sizearray	test.c	10;"	d	file:
+skipleading	minIni.c	/^static TCHAR *skipleading(const TCHAR *str)$/;"	f	file:
+skiptrailing	minIni.c	/^static TCHAR *skiptrailing(const TCHAR *str, const TCHAR *base)$/;"	f	file:
+striptrailing	minIni.c	/^static TCHAR *striptrailing(TCHAR *str)$/;"	f	file:
+strnicmp	minIni.c	/^int strnicmp(const TCHAR *s1, const TCHAR *s2, size_t n)$/;"	f
+strnicmp	minIni.c	70;"	d	file:
+strreverse	minIni.c	/^static void strreverse(TCHAR *str)$/;"	f	file:
+write_quoted	minIni.c	/^static void write_quoted(const TCHAR *Value, INI_FILETYPE *fp)$/;"	f	file:
+writekey	minIni.c	/^static void writekey(TCHAR *LocalBuffer, const TCHAR *Key, const TCHAR *Value, INI_FILETYPE *fp)$/;"	f	file:
+writesection	minIni.c	/^static void writesection(TCHAR *LocalBuffer, const TCHAR *Section, INI_FILETYPE *fp)$/;"	f	file:
